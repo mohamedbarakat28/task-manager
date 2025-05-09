@@ -11,7 +11,7 @@ const errorHandlerMiddleware = require('./middleware/error-handler');
 app.use(express.static('./public'));
 app.use(express.json());
 
-// routes
+// routes all files
 
 app.use('/api/v1/tasks', tasks);
 
